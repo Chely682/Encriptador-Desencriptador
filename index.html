@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./imagenes/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <title>Sistema Encriptador Desencriptador</title>
+</head>
+
+<body>
+
+    <!--Sección Superior--> 
+    <header>
+        <img src="./imagenes/logo1.svg" alt="logo Alura" class="logo">
+    </header>
+
+    <!--Sección Principal-->
+    <main>
+        <!--Lado Izquierdo Recuadro y Botones-->
+        <section class="encriptador">
+            <textarea class="encriptar" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="encriptador-aviso">
+                <img src="./imagenes/aviso.svg" alt="imagen aviso" class="img-aviso">
+                <p class="texto-aviso">Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="encriptador-contenedor">
+                <button type="submit" class="btn-encriptar">Encriptar</button>
+                <button type="submit" class="btn-desencriptar">Desencriptar</button>              
+            </div>
+        </section>
+
+        <!--Lado Derecho Recuadro Monito-->
+        <section class="tarjeta">
+            <div class="tarjeta-contenedor">
+                <img src="./imagenes/monito1.svg" alt="monito" class="img-monito">
+                <p class="texto-uno">Ningún mensaje fue encontrado</p>                         
+                <p class="texto-dos">Ingresa el texto que desees encriptar o <br> desencriptar.</p>
+            </div>
+            <textarea type="mensaje" class="evaluar" readonly></textarea>
+            <button type="submit" class="btn-copiar">Copiar</button>
+        </section>
+    </main>
+
+    <!--Sección Inferior-->
+        <footer>
+            <p class="copyright">Encriptador y Desencriptador de Texto - desarrollado por Graciela Reyes Soza - Alumna One G7 2024</p>
+                <a href="https://linkedin.com/" rel="web linkedin">
+                    <img src="./imagenes/linkedin.svg" alt="logo linkedin" class="linked">
+                </a>
+            
+                <a href="https://github.com/" rel="web github">
+                    <img src="./imagenes/github.svg" alt="logo github" class="git">
+                </a>
+        </footer>
+
+
+        <script src="index.js"></script>
+</body>  
+</html>
+      
+
+
